@@ -186,10 +186,10 @@ Global Const $g_sGoogle = "Google"
 ; <><><><><><>  Android.au3 (and related) globals <><><><><><>
 Global $g_sAndroidGameDistributor = "Google" ; Default CoC Game Distributor, loaded from config.ini
 Global $g_sAndroidGamePackage = "com.supercell.clashofclans" ; Default CoC Game Package, loaded from config.ini
-Global $g_sAndroidGameClass = ".GameApp" ; Default CoC Game Class, loaded from config.ini
+Global $g_sAndroidGameClass = "com.supercell.titan.GameApp" ; Default CoC Game Class, loaded from config.ini
 Global $g_sUserGameDistributor = "Google" ; User Added CoC Game Distributor, loaded from config.ini
 Global $g_sUserGamePackage = "com.supercell.clashofclans" ; User Added CoC Game Package, loaded from config.ini
-Global $g_sUserGameClass = ".GameApp" ; User Added CoC Game Class, loaded from config.ini
+Global $g_sUserGameClass = "com.supercell.titan.GameApp" ; User Added CoC Game Class, loaded from config.ini
 
 Global $g_hAndroidLaunchTime = 0 ; __TimerInit() when Android was last launched
 Global $g_iAndroidRebootHours = 24 ; Default hours when Android gets automatically rebooted
